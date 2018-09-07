@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello HTML5's Circle Canvas</title>
+    <style>
+        canvas{
+            border: 1px solid white;
+            background-color:rgb(149, 250, 226);
+        }
+        body{
+            margin:0px;
+            margin-top:100px;
+            background-color:rgb(54, 49, 49);
+        }
+        button{
+            padding: 10px 100px;
+            position:relative;
+            top: -300px;
+            left: 620px;
+            background-color:rgba(12, 231, 247, 0.5);
+            border:2px solid white;
+            color:black;
+            font-weight:bolder;
+            font-size:18px;
+        }
+        button:hover{
+            box-shadow: 100px 100px 0px 0px solid black;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas"></canvas><br>
+<button onclick="next()">Next Canvas</button>
+<script src="myjs.js"></script>
+</body>
+</html>
